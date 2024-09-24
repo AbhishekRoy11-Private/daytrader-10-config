@@ -40,13 +40,14 @@ app:
     - name: mqHost
       value: 'qm1-7ede.qm.us-south.mq.appdomain.cloud' #hostname where MQ container is running
     - name: mqPort
-      value: "30454"
+      value: "30973"
     - name: mqChannel
       value: "CLOUD.APP.SVRCONN"
     - name: mqUser
       value: "app"
     - name: mqPass
-      value: "{aes}ACGv685f2PtN9s2NlsmLyRRJd8dxOSzyWXOl5JWJ/QjQDZ/GgZdyU3KrkHib+vx2QKoCPDHETwBcNs6c3W0UDiyuJiRk6ph/TwOCyxxFJYJm"
+      #value: "{aes}ACGv685f2PtN9s2NlsmLyRRJd8dxOSzyWXOl5JWJ/QjQDZ/GgZdyU3KrkHib+vx2QKoCPDHETwBcNs6c3W0UDiyuJiRk6ph/TwOCyxxFJYJm"
+      value: "{xor}DAUyFjoRCSoxEisbGBoTEzBnBzw9azEmLDoAMxgcMRY5BS8GMygWaDwVMWs="
 
   # List of variables that can be referenced in server.xml
   # Liberty encrypted values are supported
