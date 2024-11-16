@@ -3,6 +3,9 @@ app:
   # build id to deploy
   version: 36583217-8731-4ae2-930c-45383ee71199
 
+  # configure public endpoint
+  endpoints: public
+
   # number of instances
   instances:
     # min number of instances. can be 0 for scale to 0. default to 1.
@@ -21,15 +24,15 @@ app:
     - name: JVM_ARGS 
       value: "-DenvironmentType=stage"
     - name: tradeDbHost
-      value: "9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+      value: "6667d8e9-9d4d-4ccb-ba32-21da3bb5aafc.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
     - name: tradeDbName
       value: bludb
     - name: tradeDbPort
-      value: "32459"
+      value: "30376"
     - name: dbUser
-      value: lnl43017
+      value: dlz77291
     - name: dbPass
-      value: "{xor}G2cNDxYYCCU9HDI0OggaJQ=="
+      value: "{xor}bylvbTNsFDNmbhI4JSgXBw=="
     - name: sslconn
       value: "true"
     - name: QueueManager
