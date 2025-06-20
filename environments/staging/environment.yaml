@@ -24,15 +24,15 @@ app:
     - name: JVM_ARGS 
       value: "-DenvironmentType=stage"
     - name: tradeDbHost
-      value: "6667d8e9-9d4d-4ccb-ba32-21da3bb5aafc.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+      value: "9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
     - name: tradeDbName
       value: bludb
     - name: tradeDbPort
-      value: "30376"
+      value: "32459"
     - name: dbUser
-      value: dlz77291
+      value: lnl43017
     - name: dbPass
-      value: "{xor}bylvbTNsFDNmbhI4JSgXBw=="
+      value: "{xor}G2cNDxYYCCU9HDI0OggaJQ=="
     - name: sslconn
       value: "true"
     - name: QueueManager
