@@ -24,17 +24,23 @@ app:
     - name: JVM_ARGS 
       value: "-DenvironmentType=stage"
     - name: tradeDbHost
-      value: "9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+      #value: "9938aec0-8105-433e-8bf9-0fbb7e483086.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud"
+      value: "easej-svt-vm.purple-mystic-butterfly.com"
     - name: tradeDbName
-      value: bludb
+      #value: bludb
+      value: tradedb
     - name: tradeDbPort
-      value: "32459"
+      #value: "32459"
+      value: "60005"
     - name: dbUser
-      value: lnl43017
+      #value: lnl43017
+      value: "db2inst1"
     - name: dbPass
-      value: "{xor}G2cNDxYYCCU9HDI0OggaJQ=="
+      #value: "{xor}G2cNDxYYCCU9HDI0OggaJQ=="
+      value: "{xor}Oz1tLz4sLChvLTs="
     - name: sslconn
-      value: "true"
+      #value: "true"
+      value: "false"
     - name: QueueManager
       value: QM1
     - name: sslciphersuite
