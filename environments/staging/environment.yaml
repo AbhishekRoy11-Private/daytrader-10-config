@@ -49,7 +49,7 @@ app:
     - name: mqHost
       value: 'qm1-7ede.qm.us-south.mq.appdomain.cloud' #hostname where MQ container is running
     - name: mqPort
-      value: "31364"
+      value: "31413"
     - name: mqChannel
       value: "CLOUD.APP.SVRCONN"
     - name: mqUser
