@@ -1,7 +1,12 @@
 version: 1.0
 app:
   # build id to deploy
-  version: ""
+  version: "2c594a9a-ffe7-471f-bdc5-89c5c27fefe9"
+
+  services:
+    - amazonCloudWatch:
+       logGroup: EASeJ
+       arn: arn:aws:iam::592157396942:role/IBM_EASeJ_Service_20251021-1214-5985-900e-4637ade1991d
 
   # configure public endpoint
   endpoints: public
